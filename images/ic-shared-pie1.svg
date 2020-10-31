@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="34" viewBox="0 0 35 34">
+    <defs>
+        <path id="je3ya" d="M337 3522c0 7.72-6.28 14-14 14s-14-6.28-14-14 6.28-14 14-14c.19 0 .34.15.34.34v13.32h13.32c.19 0 .34.15.34.34zm-.69.34H323a.34.34 0 0 1-.34-.34v-13.31a13.33 13.33 0 0 0-12.98 13.31c0 7.34 5.98 13.32 13.32 13.32 7.23 0 13.13-5.8 13.31-12.98z"/>
+        <path id="je3yb" d="M344 3516.64c0 .2-.16.36-.36.36h-14.28a.36.36 0 0 1-.36-.36v-14.28c0-.2.16-.36.36-.36 8.07 0 14.64 6.57 14.64 14.64zm-.72-.35a13.95 13.95 0 0 0-13.57-13.57v13.57z"/>
+        <path id="je3yc"
+              d="M317.5 3519.12h2.14c.2 0 .36-.16.36-.36 0-.19-.16-.35-.36-.35h-1.07v-1.06c0-.2-.16-.35-.36-.35-.2 0-.35.16-.35.35v1.06h-.36c-1.38 0-2.5 1.11-2.5 2.47a2.49 2.49 0 0 0 2.5 2.47c.98 0 1.79.8 1.79 1.77s-.8 1.76-1.79 1.76h-2.14c-.2 0-.36.16-.36.36 0 .19.16.35.36.35h2.14c.12 0 .24-.02.36-.04v1.1c0 .2.16.35.35.35.2 0 .36-.16.36-.35v-1.31a2.46 2.46 0 0 0 1.43-2.22 2.49 2.49 0 0 0-2.5-2.47c-.98 0-1.79-.8-1.79-1.77s.8-1.76 1.79-1.76z"/>
+    </defs>
+    <g>
+        <g transform="translate(-309 -3502)">
+            <g>
+                <use fill="#4c7df6" xlink:href="#je3ya"/>
+                <use fill="#fff" fill-opacity="0" stroke="#4c7df6" stroke-miterlimit="50" stroke-width=".5" xlink:href="#je3ya"/>
+            </g>
+            <g>
+                <use fill="#4c7df6" xlink:href="#je3yb"/>
+                <use fill="#fff" fill-opacity="0" stroke="#4c7df6" stroke-miterlimit="50" stroke-width=".5" xlink:href="#je3yb"/>
+            </g>
+            <g>
+                <use fill="#4c7df6" xlink:href="#je3yc"/>
+                <use fill="#fff" fill-opacity="0" stroke="#4c7df6" stroke-miterlimit="50" stroke-width=".5" xlink:href="#je3yc"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="24" viewBox="0 0 35 24">
+    <defs>
+        <path id="5pvua" d="M900 3512.55v18.9c0 1.4-1.01 2.55-2.26 2.55h-30.48c-1.25 0-2.26-1.14-2.26-2.55v-18.9c0-1.4 1.01-2.55 2.26-2.55h30.48c1.25 0 2.26 1.14 2.26 2.55zm-1.04 18.83V3521H866v10.38c0 .9.65 1.62 1.46 1.62h30.08c.8 0 1.46-.73 1.46-1.62zm0-11.38v-4H866v4zm.04-7.51c0-.82-.65-1.49-1.46-1.49h-30.08c-.8 0-1.46.67-1.46 1.49v2.51h33z"/>
+    </defs>
+    <g>
+        <g transform="translate(-865 -3510)">
+            <use fill="#4b7af7" xlink:href="#5pvua"/>
+            <use fill="#fff" fill-opacity="0" stroke="#4b7af7" stroke-miterlimit="50" stroke-width=".5" xlink:href="#5pvua"/>
+        </g>
+    </g>
+</svg>

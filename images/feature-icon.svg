@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="98" viewBox="0 0 98 98">
+    <defs>
+        <path id="djuja" d="M751 2782a49 49 0 1 1 98 0 49 49 0 0 1-98 0z"/>
+        <path id="djujc" d="M821.95 2769h-4.5v19.4a5.83 5.83 0 0 1-5.83 5.68H794.4l-.4.39a4 4 0 0 0 3.72 2.85h7.2l10.56 8.68v-8.68h6.47c2.04 0 4.05-1.82 4.05-3.83v-20.98c0-2-2.01-3.51-4.05-3.51"/>
+        <path id="djujd" d="M812.12 2762h-35.18c-2.05 0-3.94 1.63-3.94 3.66v22.7c0 2.03 1.89 3.77 3.94 3.77h6.64v8.87l10.49-8.87h18.05a3.92 3.92 0 0 0 3.88-3.77v-22.7c0-2.03-1.83-3.66-3.88-3.66"/>
+        <linearGradient id="djujb" x1="751.62" x2="847.16" y1="2828.87" y2="2737.18" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#47b3f9"/>
+            <stop offset=".41" stop-color="#8585e8"/>
+            <stop offset="1" stop-color="#c855d7"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g transform="translate(-751 -2733)">
+            <use fill="url(#djujb)" xlink:href="#djuja"/>
+        </g>
+        <g transform="translate(-751 -2733)">
+            <use fill="#fff" xlink:href="#djujc"/>
+        </g>
+        <g transform="translate(-751 -2733)">
+            <use fill="#fff" xlink:href="#djujd"/>
+        </g>
+    </g>
+</svg>

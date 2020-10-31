@@ -1,0 +1,672 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #007bff !important;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
+
+.fixed-button{
+    color: #fff !important;
+    display: inline-block !important;
+    word-break: normal !important;
+    word-wrap: nowrap !important;
+    cursor: pointer;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: fixed;
+    right: 0;
+    top: 30%;
+    background-color: black;
+    padding: 10px;
+    z-index: 10000;
+}
+
+.fixed-button:hover{
+    width: 50px;
+    box-shadow: 0 0 10px black;
+}
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+
+/* NAVBAR SECTION START */
+
+.collapse .navbar-nav {
+    margin-bottom: 10px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: white !important;
+}
+
+.navbar-toggler:focus {
+    border: none;
+}
+
+.navbar {
+    padding: 30px 0;
+}
+
+.navbar .navbar-brand img {
+    height: 44px !important;
+    padding-left: 35px;
+}
+
+.navbar .nav-link {
+    background: none;
+    position: relative;
+    transition: color .4s linear;
+    font-size: 14px;
+    font-weight: bold;
+    color: white !important;
+    padding: .5rem 1rem !important;
+}
+
+.navbar .nav-link:hover {
+    color: black !important;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+}
+
+.btn1::before {
+    transform: scaleX(0);
+}
+
+.btn1:hover::before {
+    transform: scaleX(1);
+}
+
+.navbar .navbar-nav {
+    padding-left: 20px;
+    margin: 0px !important;
+}
+
+.navbar .sign-up {
+    background: transparent !important;
+    border: none;
+    outline: none;
+    background-color: white !important;
+    color: skyblue;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar .sign-up:hover {
+    background: transparent !important;
+}
+
+
+
+
+
+/* NAVBAR SECTION END */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* CAROUSEL SECTION START */
+
+#carousel-section {
+    padding: 10px 0;
+}
+
+#carousel-section .left-side {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+#carousel-section .leftside-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#carousel-section .left-side h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 57rem !important;
+    color: white !important;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#carousel-section .left-side h4 {
+    text-align: center;
+    margin: 1.1rem auto 0;
+    margin-bottom: 0px;
+    font-weight: 400;
+    max-width: 57rem;
+    line-height: 37px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#carousel-section .button {
+    padding: 8px 25px;
+    background-color: skyblue;
+    border: none !important;
+    outline: none;
+    font-weight: bold;
+    transition: color .4s linear;
+    position: relative;
+    z-index: 1;
+}
+
+#carousel-section .button:hover {
+    color: white;
+}
+
+#carousel-section .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    z-index: -1;
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+}
+
+#carousel-section .carousel-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.c-button2::before {
+    transform: scaleX(0);
+}
+
+.c-button2:hover::before {
+    transform: scaleX(1);
+}
+
+
+
+
+@media(max-width:992px){
+    .right-side img{
+        display: none;
+    }
+}
+
+
+/* CAROUSEL SECTION END */
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+/* THIRD SECTION START */
+
+
+#third-section{
+    padding: 40px 0;
+    background-color: white !important;
+    border-bottom-right-radius: 200px;
+}
+#third-section h1{
+    text-align: center;
+    color: #007bff!important;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+#third-section .thirdsection-para{
+    color: #8ca0b5 !important;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+#cards{
+    background-color: white;
+    margin: 40px 0;
+    padding: 40px 0;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px black;
+    transition: .2s ease-in-out;
+}
+
+.card h2{
+    color: #007bff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.card p{
+    color: black;
+    font-weight: 600;
+}
+
+/* THIRD SECTION END */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* SMS GATEWAY SECTION START */
+
+
+
+#sms-gateway{
+    padding: 40px 0px;
+    background-color: #f3f8fd!important;
+    text-align: center;
+}
+
+#sms-gateway .smsgateway-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    letter-spacing: 1px;
+}
+
+#sms-gateway .smsgateway-para{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.smsgateway-content{
+    padding: 40px 0px;
+}
+
+.smsgateway-content .smscontent-heading{
+    text-align: left;
+    color: #007bff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.smsgateway-content .smscontent-para{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.smsgateway-content .phone{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.smsgateway-content .smscontent-button{
+    padding: 8px 25px;
+    background-color: #007bff;
+    border: none !important;
+    outline: none;
+    font-weight: bold;
+    transition: color .4s linear;
+    position: relative;
+    z-index: 1;
+}
+
+.smsgateway-content .smscontent-button:hover{
+    color: white !important;
+}
+
+.smsgateway-content .smscontent-button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    z-index: -1;
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+}
+
+.smscontent-button2::before {
+    transform: scaleX(0);
+}
+
+.smscontent-button2:hover::before {
+    transform: scaleX(1);
+}
+
+
+/* SMS GATEWAY SECTION END */
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* USE SMS GATEWAY SECTION START */
+
+
+#usesms-gateway{
+    background-color: white;
+    padding: 40px 0px;
+}
+#usesms-gateway .usesms-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #007bff;
+    letter-spacing: 1px;
+}
+
+#usesms-gateway .usesms-content{
+    margin: 30px 0px;
+}
+
+#usesms-gateway .usesms-content h4{
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#usesms-gateway .usesms-content p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem !important;
+}
+
+#usesms-gateway .usesms-content span{
+    color: skyblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+.smskeywords{
+    margin: 60px 0;
+}
+
+.smskeywords .smskeywords-img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.smskeywords .smskeywords-img img{
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .3s ease-in-out;
+}
+
+.smskeywords .smskeywords-img img:hover{
+    filter: blur(3px);
+    transition: .3s ease-in-out;
+}
+
+.smskeywords h4{
+    text-align: center;
+    font-weight: bold;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.smskeywords p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.smskeywords span{
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/* USE SMS GATEWAY SECTION END */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* STANDARD FEATURES SECTION START */
+
+.feature-section{
+    padding-top: 4.38888889rem;
+    position: relative;
+    background-image: radial-gradient(circle 1693px at 100% 100%,#47b3f9 0,#3fd7ff 23%,#00e3ff 41%,#1ac6fb 62%,#b54fff 100%);
+    margin-bottom: 225px;
+}
+.feature-icon{
+    text-align: center;
+    margin: auto;
+    border-radius: 100%;
+    background-color: #fff;
+    height: 130px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 130px;
+    top: -64px;
+    z-index: 0;
+}
+
+.feature-icon img{
+    top: 0;
+    bottom: 0;
+    height: 98px;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    right: 0;   
+}
+
+.feature-heading{ 
+    margin-bottom: 2.77777778rem;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cardview{
+    box-shadow: 0 0.16666667rem 2.77777778rem rgba(0,0,0,.08);
+    border-radius: .44444444rem;
+    background-color: #fff;
+}
+.p-56{
+    padding: 56px !important;
+}
+.mt-129{
+    margin-top: 129px !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+
+.no-style{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-list-item{
+    display: grid;
+    grid-template-columns: 1.94444444rem 1fr;
+    min-height: 70px;
+}
+
+.feature-list-item-text{
+    padding-left: 1.33333333rem;
+    color: #007bff;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* STANDARD FEATURES SECTION END */
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+/* QUESTIONS SECTION START */
+
+
+.question-container{
+    background-image: linear-gradient(47deg,#f9b25e,#f72ba6);
+    padding: 5rem 0;
+}
+
+.question-container h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.question-heading{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.mt-36{
+    margin-top: 36px !important;
+}
+
+.question-container .btn:first-child{
+    margin-top: 20px;
+    box-shadow: 0.11111111rem 0.11111111rem 0.33333333rem rgba(87,87,87,.25);
+}
+
+.question-container .btn{
+    font-size: 14px;
+    border-radius: .22222222rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    padding: 7px 35px;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.question-container .btn-gettingstarted-btn{
+    background-color: #47b4f9;
+    border-color: #47b4f9;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+.btn-outline-white{
+    border-color: white;
+    text-transform: uppercase;
+}
+
+/* QUESTIONS SECTION END */
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+
+/* FOOTER SECTION START */
+
+.footer{
+    background-color: #000 !important; 
+}
+.footer-bottom{
+    background-color: #000 !important;
+}
+
+.footer .footer-title{
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer .footer-ancor{
+    color: rgb(69, 89, 182);    
+    text-align: left !important;
+    transition: .3s ease-in-out;
+}
+
+.footer .footer-ancor:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: white !important;
+    transition: .3s ease-in-out;
+}
+
+.footer .footer-left{
+    margin-bottom: 20px;
+}
+
+/* FOOTER SECTION END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
